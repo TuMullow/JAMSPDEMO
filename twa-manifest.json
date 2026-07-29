@@ -1,0 +1,30 @@
+{
+  "packageId": "com.jehoshua.portal.marikina",
+  "host": "jehoshua-portal.marikina.app",
+  "name": "Jehoshua Academy Portal",
+  "launcherName": "Jehoshua Portal",
+  "display": "standalone",
+  "themeColor": "#0D47A1",
+  "navigationColor": "#0D47A1",
+  "backgroundColor": "#0D47A1",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "/pwa-512x512.png",
+  "maskableIconUrl": "/pwa-512x512.png",
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": false
+    },
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  }
+}

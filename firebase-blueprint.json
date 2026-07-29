@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "students": {
+      "title": "Students",
+      "description": "Student profile records for Jehoshua Academy",
+      "type": "object",
+      "properties": {
+        "studentId": { "type": "string" },
+        "fullName": { "type": "string" },
+        "email": { "type": "string" },
+        "gradeLevel": { "type": "string" },
+        "section": { "type": "string" },
+        "adviser": { "type": "string" },
+        "schoolYear": { "type": "string" },
+        "photoUrl": { "type": "string" },
+        "address": { "type": "string" },
+        "contactNumber": { "type": "string" },
+        "guardian": { "type": "string" },
+        "guardianContact": { "type": "string" },
+        "birthdate": { "type": "string" },
+        "gender": { "type": "string" }
+      },
+      "required": ["studentId", "fullName", "email"]
+    },
+    "announcements": {
+      "title": "Announcements",
+      "description": "School wide and academic advisories for live sync",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "date": { "type": "string" },
+        "category": { "type": "string" },
+        "image": { "type": "string" },
+        "pinned": { "type": "boolean" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["title", "description", "date", "category"]
+    },
+    "assignments": {
+      "title": "Assignments",
+      "description": "Subject assignments and homework submissions",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "subject": { "type": "string" },
+        "description": { "type": "string" },
+        "dueDate": { "type": "string" },
+        "status": { "type": "string" },
+        "points": { "type": "number" },
+        "maxPoints": { "type": "number" },
+        "feedback": { "type": "string" },
+        "submissionDate": { "type": "string" },
+        "submittedFile": { "type": "string" }
+      },
+      "required": ["title", "subject", "dueDate", "status"]
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "Realtime notification alerts for students",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "message": { "type": "string" },
+        "date": { "type": "string" },
+        "type": { "type": "string" },
+        "read": { "type": "boolean" },
+        "linkTab": { "type": "string" }
+      },
+      "required": ["title", "message", "date", "type", "read"]
+    },
+    "events": {
+      "title": "School Events",
+      "description": "Calendar events and academic schedules",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "date": { "type": "string" },
+        "endDate": { "type": "string" },
+        "type": { "type": "string" },
+        "description": { "type": "string" },
+        "location": { "type": "string" }
+      },
+      "required": ["title", "date", "type"]
+    }
+  }
+}

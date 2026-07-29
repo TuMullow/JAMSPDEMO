@@ -1,0 +1,6 @@
+{
+  "name": "JEHOSHUA ACADEMY OF MARIKINA Student Portal",
+  "description": "A comprehensive student portal for JEHOSHUA ACADEMY OF MARIKINA featuring academic grades, attendance tracking, schedules, assignments, announcements, calendar, and student profile with Material Design 3 UI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
