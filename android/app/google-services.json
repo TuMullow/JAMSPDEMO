@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "130601014887",
+    "project_id": "jam-student-portal",
+    "storage_bucket": "jam-student-portal.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130601014887:android:e9d905c56387f2ad8ca6c2",
+        "android_client_info": {
+          "package_name": "com.jehoshua.studentportal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcnll1k2G1REKecQxGWFVKvhs6OCHwZR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
